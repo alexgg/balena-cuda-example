@@ -1,8 +1,8 @@
-version: '2'                                                                    
-services:                                                                       
-  examples:                                                                         
-    build: ./examples                                                                      
-    restart: no         
+version: '2'
+services:
+  examples:
+    build: ./examples
+    restart: no
     labels:
-        io.balena.features.gpu: '1'
+            io.balena.features.gpu: '1'
 
